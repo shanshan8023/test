@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+html,
+body,
+div,
+p,
+ul,li{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+}
+li{
+	list-style: none;
+}
+
+.container{
+	height: 465px;
+}
+.container img{
+	width: 100%;
+}
+.fengqin{
+	height: 260px;
+	width: 1210px;  /*多10用于鼠标移至图片上图片缓存,不出现白屏*/
+	margin: 30px auto 0;
+}
+.fengqin ul{
+	height: 100%;   /*父级设高度。子级的高度可以设为100%*/
+}
+.fengqin li{
+	float: left;
+	width: 200px;
+	height: 100%;
+	position: relative;
+}
+.fengqin li .img{
+	height: 100%;
+	width: 100%;
+}
+.fengqin li .intro{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);  /*含遮罩rgba*/
+}
+.fengqin li .intro p{
+	width: 30px;
+	margin: 40px auto 0;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
